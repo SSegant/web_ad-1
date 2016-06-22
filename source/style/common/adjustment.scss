@@ -1,0 +1,68 @@
+body {
+  background: $white;
+}
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: $font-size;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  min-width: $container-width + 20px;
+}
+
+.wrapper:after {
+  content: "";
+  height: $footer-height;
+  display: block;
+}
+
+footer {
+  background: green;
+  text-align: center;
+  height: $footer-height;
+  margin-top: -$footer-height;
+  position: relative;
+  min-width: $container-width + 20px;
+}
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+}
+
+p{
+  line-height: $font-size * 1.625;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+@function rem($px){
+  @return $px/16 + 0rem;
+}
+
+
+.clearfix {
+    zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}

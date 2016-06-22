@@ -1,0 +1,79 @@
+.about{
+	@extend .clearfix;
+	margin-top: rem(20);
+}
+
+.about__left,.about__right{
+	float: left;
+	text-align: center;
+}
+
+.about__left{
+	width: rem(450);
+	margin-right: rem(120);
+}
+
+.about__right{
+	background:pink;
+	width: rem(630);
+}
+
+.about__title{
+	font-size: rem(63);
+	text-align: center;
+	margin-bottom: rem(60);
+}
+
+.about__ava{
+	display: block;
+	text-align: center;
+	margin-bottom: rem(40);
+}
+
+.about__ava-pic{
+	display: inline-block;
+}
+
+.about__desk{
+	margin-bottom: rem(60);
+}
+
+.about__sub-title{
+	font-size: rem(35);
+	text-align: center;
+	width: 50%;
+	display: inline-block;
+	margin-bottom: rem(40);
+}
+
+.about__desk{
+	line-height: rem(26);
+	text-align: left;
+}
+
+.skills{
+	text-align: left;
+	font-size: rem(28);
+}
+
+.sills__title{
+	margin-bottom: rem(20);
+}
+
+.map-wrap{
+	position: relative;
+	height: rem(830);
+	width: 100%;
+}
+
+.map{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 120%;
+	background:pink;
+}
+
+.footer__about{
+	background:rgba(#2f4347,.7);
+}

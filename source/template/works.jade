@@ -1,0 +1,57 @@
+doctype html
+html
+ include common/_head
+ body
+  include common/_oldbrowsers
+  .wrapper
+   include common/_header
+   .title-works Мои работы
+   .slider
+    .slider__left
+     .slider__box
+      .slider__title Сайт школы онлайн образования
+      .slider__skills HTML,CSS,JS
+      .slider__button
+       a.slider__button-link(href="/assets/img/ava.png") Посмотреть сайт  
+    .slider__right
+     ul.slider__list
+      li.slider__item
+       img.slider__item-pic(src="/assets/img/slider/1.png")
+      li.slider__item
+       img.slider__item-pic(src="/assets/img/slider/1.png")
+      li.slider__item
+       img.slider__item-pic(src="/assets/img/slider/1.png")
+   .title-works Что обо мне говорят
+   .bg
+    .qoutes-container
+     .qoute
+      .qoute__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos debitis provident nulla illum, minus enim, praesentium repellendus ullam cupiditate reiciendis.
+      .qoute__user
+       .qoute__user__ava
+        img.qoute__user__ava-pic(src="/assets/img/ava-user.png")
+       .qoute__user__desk
+        .qoute__user__name Дмитрий Ковальчук
+        .qoute__user__occupation Основатель LoftSchool
+     .qoute
+      .qoute__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos debitis provident nulla illum, minus enim, praesentium repellendus ullam cupiditate reiciendis.
+      .qoute__user
+       .qoute__user__ava
+        img.qoute__user__ava-pic(src="/assets/img/ava-user.png")
+       .qoute__user__desk
+        .qoute__user__name Дмитрий Ковальчук
+        .qoute__user__occupation Основатель LoftSchool
+    .form-box
+     .form__title СВЯЗАТЬСЯ СО МНОЙ
+     form.form
+      input.form__name.form__field(type="text" placeholder="имя")
+      input.form__email.form__field(type="email" placeholder="email")
+      textarea.form__text.form__field(type="textarea" placeholder="сообщение")
+      .form-btns
+       input.form__submit.form__action(type="submit")
+       input.form__reset.form__action(type="reset")
+ include common/_footer
+
+     
+    
+       
+    

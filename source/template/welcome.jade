@@ -1,0 +1,21 @@
+doctype html
+html
+  include common/_head
+  body
+    include common/_oldbrowsers
+    
+    .wrapper.greating
+     .greating-box
+      .ava
+       img.ava-pic(src="/assets/img/ava.png")
+      .greating-title Сергей Иноземцев
+      .greating-sub-title Личный сайт веб-разработчика
+      include common/_socials
+      ul.greating-buttons__list
+       li.greating-buttons__item 
+        a.greating-buttons__link(href="/works.jade") Мои работы
+       li.greating-buttons__item 
+        a.greating-buttons__link(href="#") Обо мне
+       li.greating-buttons__item 
+        a.greating-buttons__link(href="#") Блог
+        

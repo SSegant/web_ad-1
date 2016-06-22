@@ -1,0 +1,46 @@
+.container__blog{
+	margin-top: rem(70);
+
+	@extend .clearfix;
+}
+
+.sidebar{
+	float: left;
+
+	text-align: right;
+
+	width:rem(280);
+}
+
+.sidebar__list{
+	display: block;
+}
+
+.sidebar__item--acive{
+	border-right: 5px solid $blue; 
+}
+
+.sidebar__link{
+	padding: rem(15);
+	display: block;
+}
+
+.content{
+	margin-left: 100px;
+	float: left;
+	width: rem(700);
+}
+
+.article{margin-bottom: rem(70);}
+
+.article__title{
+	font-size: rem(35);
+	color: $dark-grey;
+	margin-bottom: rem(30);
+}
+
+.article__date{
+	color: $blue;
+	margin-bottom: rem(30);
+
+}

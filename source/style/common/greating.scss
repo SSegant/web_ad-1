@@ -1,0 +1,129 @@
+.wrapper.greating {
+ 
+  background: url('/assets/img/bg-welcome.jpg') no-repeat center;
+  background-size: cover;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.greating-box{
+  position: absolute;
+  width: 380px;
+  height: 394px;
+  top: 50%;
+  left: 50%;
+  background:$white;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  opacity: .85;
+  text-align: center;
+}
+
+.ava{
+  margin-top: 37px;
+  display: inline-block;
+  min-width: 147px;
+  min-height: 147px;
+  opacity: 1;
+
+}
+
+.ava-pic{
+  display: block;
+  border-radius: 50%;
+}
+
+.greating-title{
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.greating-sub-title{
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.socials__list{
+  display: block;
+}
+
+.socials__item{
+  display: inline-block;
+      margin: 25px 0 0 15px;
+
+}
+
+.socials__link{
+  text-decoration: none;
+  text-decoration: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  opacity: .7;
+  transition :all .3s;
+
+  &:hover{
+    opacity: 1;
+  }
+
+  &.socials__link_vk{
+    background: url('/assets/img/icons/vk.svg')center no-repeat;
+    background-size: cover;
+  }
+
+  &.socials__link_github{
+    background: url('/assets/img/icons/github.svg')center no-repeat;
+    background-size: cover;
+  }
+
+  &.socials__link_linkedin{
+    background: url('/assets/img/icons/linkedin.svg')center no-repeat;
+    background-size: cover;
+  }
+}
+
+.socials__item-pic{
+  height: 30px;
+  opacity: .5;
+  transition:all .2s; 
+
+  &:hover{
+    opacity: 1; 
+  }
+}
+
+.greating-buttons__list{
+margin-top: 40px;
+width: 100%;
+display: table;
+}
+
+.greating-buttons__link{
+  text-decoration: none;
+  color: $white;
+}
+
+.greating-buttons__item{
+  color: $white;
+  background:$blue;
+  transition: all .3s;
+ // float: left;
+  border-left: 1.5px solid #74cac3;
+  border-right: 1.5px solid #74cac3;
+  display: table-cell;
+  padding: 12px;
+
+  &:hover{
+    background:#0f9187;
+  }
+
+  &:first-child{
+  border-radius: 0 0 0px 10px;
+  border-left:none;
+  }
+
+  &:last-child{ 
+  border-radius: 0 0 10px 0;
+  border-right:none;
+  }
+}

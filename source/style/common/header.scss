@@ -1,0 +1,83 @@
+.header{
+	height: rem(600);
+	background: url('/assets/img/bg-welcome.jpg');
+  position: relative;
+  background-size: cover;
+
+
+
+	.container{
+		position: relative;
+	}
+
+}
+
+
+
+.header-box{
+	position: absolute;
+  width: 380px;
+  height: 394px;
+  top: 50%;
+  left: 50%;
+  background:$white;
+  border-radius: 10px;
+  text-align: center;
+	transform: translate(-50%, 30%);
+	background-color: transparent;
+	color: $white;
+
+		&:after{
+		display: block;
+		content: "";
+		width: rem(25);
+		height: rem(20);
+		background: url('/assets/img/icons/aroww.png') no-repeat;
+		transform: translate(710%, 670%);
+	}
+}
+
+.header-box__ava{
+  margin-top: 37px;
+  display: inline-block;
+  min-width: 147px;
+  min-height: 147px;
+  opacity: 1;
+
+}
+
+.header-box__ava-pic{
+  display: block;
+  border-radius: 50%;
+}
+
+.header-box__title{
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.header-box__sub-title{
+  font-size: 16px;
+  margin-top: 6px;
+  color: $light-grey;
+}
+
+.header-tr-l{
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  border: 110px solid transparent;
+  border-bottom: 0px solid green;
+  border-left: rem(633) solid #fff;
+}
+
+.header-tr-r{
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  border: 110px solid transparent;
+  border-bottom: 0px solid green;
+  border-right: rem(633) solid #fff;
+}

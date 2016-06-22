@@ -1,0 +1,17 @@
+$white: #fff;
+$blue: #13b6a0;
+$dark-blue:#0f9187;
+$light-grey:#dde9eb;
+$dark-grey:#455a64;
+$container-width: 1200px;
+$footer-height:150px;
+$font-size:16px;
+
+@import 'common/adjustment';
+@import 'common/header';
+@import 'common/footer';
+@import 'common/greating';
+@import 'common/about';
+@import 'common/works';
+@import 'common/blog';
+
